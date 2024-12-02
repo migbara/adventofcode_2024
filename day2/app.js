@@ -1,6 +1,6 @@
 let fs = require('fs');
 const ln = '\n'; //\r\n en Windows
-const day = 1;
+const day = 2;
 
 const checkReport = (cad) => {
     const parts = cad.split(' ');
