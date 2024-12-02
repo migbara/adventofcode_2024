@@ -1,5 +1,6 @@
 let fs = require('fs');
 const ln = '\n'; //\r\n en Windows
+const day = 1;
 
 const obtenerListas = (cads) => {
     let izq = [];
@@ -40,7 +41,7 @@ function part1() {
         sum += dif;
     }
 
-    console.log(`The solution for Day 1 - Part 1 is: ${sum}`);
+    console.log(`The solution for Day ${day} - Part 1 is: ${sum}`);
 };
 
 function part2() {
@@ -61,12 +62,12 @@ function part2() {
         // console.log(`${el_izq} - ${found.length} : ${value}`);
         sum += value;
     }
-    console.log(`The solution for Day 1 - Part 2 is: ${sum}`);
+    console.log(`The solution for Day ${day} - Part 2 is: ${sum}`);
 };
 
 function main(){
 
-    console.log("DAY 1");
+    console.log(`DAY ${1}`);
 
     part1();
 
