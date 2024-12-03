@@ -67,7 +67,7 @@ function part2() {
 
 function main(){
 
-    console.log(`DAY ${1}`);
+    console.log(`DAY ${day}`);
 
     part1();
 
